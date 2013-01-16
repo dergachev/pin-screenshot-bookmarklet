@@ -10,4 +10,6 @@ function createWebsitePin(linkURL, imageURL) {
 }
 
 var imageURL = window.prompt("Enter the URL of the screenshot to pin:", 'http://evolvingweb.ca/sites/default/files/ew-banner-responsive.png')
-createWebsitePin(window.location.href, imageURL);
+if (imageURL) { 
+  createWebsitePin(window.location.href, imageURL);
+}

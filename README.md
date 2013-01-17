@@ -9,18 +9,21 @@ The __Pin Screenshot__ bookmarklet allows you to post a screenshot of the curren
 
 ## Installation
 
-To install, visit http://bl.ocks.org/d/4548565
+To install, visit http://dergachev.github.com/pin-screenshot-bookmarklet/
 
-## Developing
+## Dev Notes
+
+### Hacking on localhost
 
 ```
-# consider forking this gist
-git clone https://gist.github.com/4548565.git pin-screenshot
-cd pin-screenshot
+# consider forking first
+git clone https://github.com/dergachev/pin-screenshot-bookmarklet.git 
+cd pin-screenshot-bookmarklet
 python -m SimpleHTTPServer 9092 # serves http://localhost:9092/index.html
 ```
 
-## Dev Notes
+Then you can install and run the localhost version bookmarklet, which
+references http://localhost:9092/pin-screenshot.bookmarklet.js
 
 ### pinterest blocks dl-web.dropbox.com
 

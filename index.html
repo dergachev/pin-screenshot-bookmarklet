@@ -1,87 +1,42 @@
   <html>
-    <title>Pinterest Screenshot bookmarklet</title>
     <head>
-      <style type="text/css">
-        .button-wrapper {
-          margin: 2em 0;
-        }
-        .inline-button,
-        .button {
-          /* base64 encoder: http://www.greywyvern.com/code/php/binary2base64 */
-          /* Source image: http://tiny.cc/public/images/default-favicon.ico */
-          background-image: url(data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAA+/v8APn3+QCeTWQAcmh+APj5+gBVKksA9/X3APb29gD08vMA9/j5APT09gD7/PwA8/HyAPPz9QD6+/sA9fP1AGcwWQDy8vQAOB07APn6+gD49vcA2eryAPX19gCckqgA8/HzAPb19gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMTExMTExMTExMTExMAAAAGDQ0NDQ0NDQ0NDQ0GAAAAERkZGRkZGRkZGRkZEQAAAAMJCQkJCQkJCQkJCQMAAAADEg4SDhISEg4ODg4DAAAAAxAQEBAQEBAQEBAQAwAAAAMaGhoaGhoLFxcXGgMAAAADBwcHBwcHBwcHBwcDAAAAAxUVFRUVFRUVFRUVAwAAAAMCAgICAgICAgICAgMAAAAECgUKBQoKCgUWFhYEAAAABAUUBRQFBQUYGBgYBAAAAAQUDxQPFBQUGAgIFhgAAAAEDwEPAQ8PDxgIFhgAAAAABAEMAQwBAQEYFhgAAAAAABgYGBgYGBgYGBgAAAAAAIADAACAAwAAgAMAAIADAACAAwAAgAMAAIADAACAAwAAgAMAAIADAACAAwAAgAMAAIADAACABwAAgA8AAIAfAAA=);
-          background-repeat: no-repeat;
-          background-color: #65a9d7;
-          background-position: 10px center;
-          padding: 10px 20px 10px 32px;
-          border-radius: 8px;
-          color: white;
-          font-size: 18px;
-          font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
-          text-decoration: none;
-        }
-        .inline-button {
-          display: inline;
-          background-color: transparent;
-          padding-right: 3px;
-          padding-left: 28px;
-          font-size: 1em;
-          background-size: 13px 13px;
-        }
-        .inline-button a {
-          text-decoration: none;
-          color: #65a9d7;
-        }
-        body {
-          padding: 20px;
-          font-family: Helvetica, Arial, sans-serif;
-          font-size: .9em;
-          color: #444;
-        }
-        p {
-          line-height: 1.5em;
-          margin: .5em 0 1em 0;
-        }
-        ul {
-          line-height: 2em;
-          list-style-type: none;
-          padding-left: 1em;
-        }
-      </style>
-  </head>
+      <title>Pin Screenshot bookmarklet</title>
+      <link rel="stylesheet" href="/demo.css" type="text/css" />
+    </head>
   <body>
-  
-  <section data-markdown>
-  
-  # Pinterest Screenshot bookmarklet
-  
-  The __Pinterest Screenshot__ bookmarklet allows you to post a screenshot of the current page to Pinterest. 
-  It requires own screenshot tool, such as github.com/dergachev/copy-public-url. 
+<section data-markdown>
 
-  To install the bookmarklet, drag this link to your bookmark toolbar:
-  
-  <div class="button-wrapper"> <a class="button" href="javascript:(function(){var s = document.createElement('script');s.src='https://gist.github.com/raw/4548565/pin-screenshot.bookmarklet.js';document.body.appendChild(s);})();">Pin Screenshot</a> </div>
-  
-  ## How to use it
-  
-  * Go to a page you'd whose screenshot you want to pin
-  * Take screenshot and upload online (perhaps using my github.com/dergachev/copy-public-url) 
-  * Click on the "Pin Screenshot" bookmarklet 
-  * Paste in the screenshot image URL
-  * Press enter
-  * Create pin in popup window
-  
-  Placeholder screenshot:
-  ![Screenshot for pin-screenshot.bookmarklet.js](http://dl-web.dropbox.com/u/8325927/screenshots/NJTPYR-2013.1.14-14.36.png)
-  
-  ## Get the source code
-  
-  To get the source code, visit <a href="https://gist.github.com/4548565#pin-screenshot.bookmarklet.js">https://gist.github.com/4548565#pin-screenshot.bookmarklet.js</a>
-  
-  <a href="https://gist.github.com/4548565#pin-screenshot.bookmarklet.js"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
-  
-  </section>
-  
+# Pinterest Screenshot bookmarklet
+
+The __Pinterest Screenshot__ bookmarklet allows you to post a screenshot of the current page to Pinterest.
+It requires own screenshot tool, such as github.com/dergachev/copy-public-url.
+
+To install the bookmarklet, drag this link to your bookmark toolbar:
+
+<div class="button-wrapper"> <a class="button" href="javascript:(function(){var s = document.createElement('script');s.src='https://gist.github.com/raw/4548565/pin-screenshot.bookmarklet.js';document.body.appendChild(s);})();">Pin Screenshot</a> </div>
+
+For development purposes, the following bookmarklet is localhost-only: <span class="inline-button"><a href="javascript:(function(){var s = document.createElement('script');s.src='http://localhost:9092/pin-screenshot.bookmarklet.js';document.body.appendChild(s);})();">Pin Screenshot Localhost</a></span>
+
+
+## How to use it
+
+* Go to a page you'd whose screenshot you want to pin
+* Take screenshot and upload online (perhaps using my github.com/dergachev/copy-public-url)
+* Click on the "Pin Screenshot" bookmarklet
+* Paste in the screenshot image URL
+* Press enter
+* Create pin in popup window
+
+![Screenshot for pin-screenshot.bookmarklet.js](http://dl-web.dropbox.com/u/8325927/screenshots/NJTPYR-2013.1.14-14.36.png)
+
+## Get the source code
+
+To get the source code, visit <a href="https://gist.github.com/4548565#pin-screenshot.bookmarklet.js">https://gist.github.com/4548565#pin-screenshot.bookmarklet.js</a>
+
+<a href="https://gist.github.com/4548565#pin-screenshot.bookmarklet.js"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+
+</section>
+
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js"></script>
   <script>
     // adapted from http://blog.harakys.com/blog/2012/02/21/embed-markdown-into-your-html/
@@ -91,7 +46,6 @@
       elem.innerHTML = html;
     });
   </script>
-  
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-37659053-1']);

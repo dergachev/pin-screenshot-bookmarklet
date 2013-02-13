@@ -3,7 +3,7 @@
 The __Pin Screenshot__ bookmarklet allows you to post a screenshot of the current page to Pinterest. 
 To install, visit http://dergachev.github.com/pin-screenshot-bookmarklet/
 
-![Screenshot](https://raw.github.com/dergachev/pin-screenshot-bookmarklet/gh-pages/screencast.gif)
+<a title="Install Pin Screenshot" href="http://dergachev.github.com/pin-screenshot-bookmarklet/"><img title="Screencast" src="https://raw.github.com/dergachev/pin-screenshot-bookmarklet/gh-pages/screencast.gif" /></a>
 
 Requires separate method to upload your screenshot to the web; in the GIF I use [Copy Public URL](https://github.com/dergachev/copy-public-url).
 

@@ -8,14 +8,13 @@
 
 # Pinterest Screenshot bookmarklet
 
-The __Pinterest Screenshot__ bookmarklet allows you to post a screenshot of the current page to Pinterest.
-It requires own screenshot tool, such as github.com/dergachev/copy-public-url.
+The __Pin Screenshot__ bookmarklet allows you to post a screenshot of the current page to Pinterest.
+
+It requires own screenshot tool, such as [Copy Public URL](https://github.com/dergachev/copy-public-url).
 
 To install the bookmarklet, drag this link to your bookmark toolbar:
 
 <div class="button-wrapper"> <a class="button" href="javascript:(function(){var s = document.createElement('script');s.src='https://raw.github.com/dergachev/pin-screenshot-bookmarklet/gh-pages/pin-screenshot.bookmarklet.js';document.body.appendChild(s);})();">Pin Screenshot</a> </div>
-
-For development purposes, the following bookmarklet is localhost-only: <span class="inline-button"><a href="javascript:(function(){var s = document.createElement('script');s.src='http://localhost:9092/pin-screenshot.bookmarklet.js';document.body.appendChild(s);})();">Pin Screenshot Localhost</a></span>
 
 ![Screenshot for pin-screenshot.bookmarklet.js](https://raw.github.com/dergachev/pin-screenshot-bookmarklet/gh-pages/screencast.gif)
 
@@ -31,6 +30,10 @@ For development purposes, the following bookmarklet is localhost-only: <span cla
 ## Get the source code
 
 To get the source code, visit <a href="https://github.com/dergachev/pin-screenshot-bookmarklet">github.com/dergachev/pin-screenshot-bookmarklet</a>
+
+For development purposes, the following bookmarklet injects http://localhost:9092/pin-screenshot.bookmarklet.js:
+<span class="inline-button"><a href="javascript:(function(){var s = document.createElement('script');s.src='http://localhost:9092/pin-screenshot.bookmarklet.js';document.body.appendChild(s);})();">Pin Screenshot Localhost</a></span>
+
 
 <a href="https://github.com/dergachev/pin-screenshot-bookmarklet"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
 

@@ -4,7 +4,7 @@ The __Pin Screenshot__ bookmarklet allows you to post a screenshot of the curren
 
 ## Placeholder screenshot:
 
-![Screenshot](http://dl-web.dropbox.com/u/8325927/screenshots/NJTPYR-2013.1.14-14.36.png)
+![Screenshot](https://raw.github.com/dergachev/pin-screenshot-bookmarklet/gh-pages/screencast.gif)
 
 
 ## Installation
